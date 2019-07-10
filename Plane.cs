@@ -5,10 +5,10 @@ namespace airplanes
 {
   public class Plane
   {
-    public string Make { get; set; }
-    public string Model { get; set; }
+    public string Make { get; }
+    public string Model { get; }
 
-    public int NumberOfSeats { get; set; }
+    public int NumberOfSeats { get; }
 
     public Plane(string make, string model, int numSeats)
     {
