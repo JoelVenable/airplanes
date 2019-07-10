@@ -2,11 +2,13 @@
 
 namespace airplanes
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      var cessna = new Plane("Cessna", "72", 4);
+
+      cessna.Fly();
     }
+  }
 }
